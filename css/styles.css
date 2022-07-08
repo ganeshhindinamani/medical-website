@@ -246,7 +246,7 @@ section .flex {
 
 .section-3 .floating-img {
   position: absolute;
-  top: 0;
+  top: -16px;
   left: 0;
   margin-left: 0;
 }
@@ -472,10 +472,15 @@ section .flex {
   margin-left: -80px;
 }
 
+.section-4 .popup  .flex {
+  align-items: flex-start;
+}
+
 .section-4 .popup .flex div {
-  width: 260px;
+  width: 280px;
   border-right: 1px solid #FFB3CB;
-  margin-right: 36px;
+  padding-right: 10px;
+  margin-right: 25px;
 }
 .section-4 .popup .flex div:last-child {
   margin-right: 0;
