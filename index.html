@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Medical Website</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2>Chronic Heart Failure –</h2>
+        <h1>Patient Care Pathway</h1>
+      </div>
+
+      <main class="main">
+        <img class="path" src="img/path.svg" alt="" />
+        <section class="section-1 flex">
+          <img class="patient-img" src="img/patient.svg" alt="" />
+          <div class="patient-symptoms">
+            <h2 class="primary-heading">PATIENT WITH SUSPECTED HF</h2>
+            <div class="symptoms flex">
+              <div class="symptom flex">
+                <div>
+                  <img src="img/right-red.svg" alt="" />
+                </div>
+                <p class="description description-1">
+                  Shows typical signs and symptoms - breathlessness, fatigue,
+                  and ankle swelling
+                </p>
+              </div>
+
+              <div class="symptom flex">
+                <div>
+                  <img src="img/right-red.svg" alt="" />
+                </div>
+                <p class="description description-2">
+                  Presence of risk factors
+                </p>
+              </div>
+
+              <div class="symptom flex">
+                <div>
+                  <img src="img/right-red.svg" alt="" />
+                </div>
+                <p class="description description-3">Abnormal ECG</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-2">
+          <div class="floating flex">
+            <img src="img/one.svg" alt="" />
+            <h2 class="floating-heading">INITIAL DIAGNOSTIC TESTS</h2>
+          </div>
+          <div class="section-2-body flex">
+            <div class="box">
+              <h2 class="secondary-heading">
+                BNP &lt;35 pg/mL Or NT-proBNP&lt; 125 pg/mL Or MR-proANP &lt;40
+                pmol/L
+              </h2>
+
+              <ul>
+                <li>
+                  <div class="flex">
+                    <span> HF unlikely </span>
+                    <img src="img/cancel.svg" alt="" />
+                  </div>
+                </li>
+                <li>Consider other diagnoses</li>
+              </ul>
+
+              <button class="btn">
+                Want to know more?
+                <span class="button-animation"></span>
+              </button>
+              <div class="popup-container">
+                <div class="popup pink-box">
+                  <ul>
+                    <li>
+                      Plasma concentrations of NPs are recommended as initial
+                      diagnostic tests in patients with signs and symptoms
+                      suggestive of HF to rule out the diagnosis.
+                    </li>
+                    <li>
+                      Class I recommendation (recommended or indicated) for use
+                      of NPs in diagnosis of chronic HF.
+                    </li>
+                    <li>
+                      Elevated NP concentrations support a
+                      <strong>diagnosis of HF</strong> , are useful for
+                      <strong>prognostication</strong>, and may
+                      <strong>guide further cardiac investigation</strong>.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="box">
+              <h2 class="secondary-heading">
+                NT-proBNP &ge; 125 pg/mL Or BNP &ge; 35 pg/mL
+              </h2>
+
+              <ul>
+                <li>
+                  <div class="flex">
+                    <span> May be HF</span>
+                    <img src="img/right.svg" alt="" />
+                  </div>
+                </li>
+                <li>Proceed to echocardiography</li>
+              </ul>
+
+              <button class="btn">
+                Caveats to Consider
+                <span class="button-animation"></span>
+              </button>
+
+              <div class="popup-container">
+                <div class="popup pink-box">
+                  <ul>
+                    <li>
+                      Alternative causes of an elevated NP can include AF,
+                      increasing age, and acute or chronic kidney disease.
+                    </li>
+                    <li>NP can be disproportionately low in obese patients.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <img class="hand" src="img/hand.svg" alt="" />
+          </div>
+        </section>
+
+        <section class="section-3">
+          <div>
+            <div class="flex">
+              <div class="floating flex">
+                <img src="img/two.svg" alt="" />
+                <h2 class="floating-heading">ECHOCARDIOGRAPHY</h2>
+              </div>
+              <button class="btn">
+                Want to know more?
+                <span class="button-animation"></span>
+              </button>
+              <div class="popup-contiainer">
+                <div class="popup pink-box">
+                  <h2 class="secondary-heading-small">
+                    ECHOCARDIOGRAPHY should be conducted if:
+                  </h2>
+                  <ul>
+                    <li>Elevated NPs concentrations</li>
+                    <li>or HF strongly suspected</li>
+                    <li>or NT-proBNP/BNP unavailable</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="section-3-body flex">
+              <img class="floating-img" src="img/heart-monitor.svg" alt="" />
+
+              <div class="box box-main">
+                <h2 class="secondary-heading">If normal echocardiography</h2>
+
+                <ul>
+                  <li>
+                    <div class="flex">
+                      <span> HF unlikely </span>
+                      <img src="img/cancel.svg" alt="" />
+                    </div>
+                  </li>
+                  <li>Consider other diagnoses</li>
+                </ul>
+              </div>
+
+              <div class="flex flex-column">
+                <div class="box">
+                  <h2 class="secondary-heading">If normal echocardiography</h2>
+
+                  <ul>
+                    <li>
+                      <div class="flex">
+                        <span> HF is confirmed </span>
+                        <img src="img/right.svg" alt="" />
+                      </div>
+                    </li>
+                    <li>Consider other diagnoses</li>
+                  </ul>
+
+                  <div class="chevron">
+                    <img src="img/chevron.svg" alt="" />
+                  </div>
+                </div>
+
+                <div class="blue-box">
+                  <h2 class="secondary-heading">LVFF</h2>
+                </div>
+                <div class="box">
+                  <table class="table">
+                    <tr>
+                      <td>&le;40%</td>
+                      <td>41%-49%</td>
+                      <td>&ge;50%</td>
+                    </tr>
+                    <tr>
+                      <td><img src="img/chevron.svg" alt="" /></td>
+                      <td><img src="img/chevron.svg" alt="" /></td>
+                      <td><img src="img/chevron.svg" alt="" /></td>
+                    </tr>
+                    <tr>
+                      <td>HFrEF</td>
+                      <td>HFmrEF</td>
+                      <td>HFpEF</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-4">
+          <div class="floating flex">
+            <img src="img/three.svg" alt="" />
+            <h2 class="floating-heading">TREATMENT</h2>
+          </div>
+          <div class="section-4-body flex">
+            <div>
+              <div class="box">
+                <table class="table">
+                  <tr>
+                    <td>HFrEF</td>
+                    <td>HFmrEF</td>
+                    <td>HFpEF</td>
+                  </tr>
+                  <tr>
+                    <td><img src="img/chevron.svg" alt="" /></td>
+                    <td><img src="img/chevron.svg" alt="" /></td>
+                    <td><img src="img/chevron.svg" alt="" /></td>
+                  </tr>
+                </table>
+              </div>
+
+              <div class="blue-box">
+                <h2 class="secondary-heading">
+                  Guideline Recommended Pharmacological Treatment
+                </h2>
+              </div>
+
+              <button class="btn">
+                Want to know more?
+                <span class="button-animation"></span>
+              </button>
+              <div class="popup-container">
+                <div class="popup pink-box">
+                  <div class="flex">
+                    <div>
+                      <h2 class="secondary-heading-small">
+                        Treatment for HFrEF and NYHA class II symptoms or worse:
+                      </h2>
+                      <ul>
+                        <li>
+                          Angiotensin receptor neprilysin inhibitor (ARNI) as a
+                          replacement for angiotensin-converting enzyme (ACE)
+                          inhibitors - Class I recommendations.
+                        </li>
+                        <li>
+                          Addition of SGLT-2 inhibitors (dapagliflozin or
+                          empagliflozin) - Class I recommendations.
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div>
+                      <h2 class="secondary-heading-small">
+                        Treatment for HFmrEF
+                      </h2>
+                      <ul>
+                        <li>Diuretics to relieve congestion.</li>
+                        <li>
+                          ACE inhibitors/angiotensin-receptor
+                          blockers/ARNIs/beta-blockers/mineralocorticoid
+                          receptor antagonists may be considered as additional
+                          therapy to reduce mortality and hospitalization (Class
+                          IIa recommendation).
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div>
+                      <h2 class="secondary-heading-small">
+                        Treatment for HFpEF
+                      </h2>
+                      <ul>
+                        <li>
+                          Diagnosis and treatment of contributing factors
+                          (hypertension, kidney disease, etc.).
+                        </li>
+                        <li>Use of diuretics.</li>
+                        <li>
+                          Evidence based therapies proven with reducing the
+                          major heart failure outcomes.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <img src="img/syrup.svg" alt="" />
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
